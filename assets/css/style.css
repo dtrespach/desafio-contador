@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #002792, #355ee2, #2072cf, #115dcf);
+    background-size: 400% 400%;
+    animation: backgroundTransition 8s ease-in-out infinite;
+}
+h1 {
+    font-size: 60pt;
+}
+
+p {
+    font-size: 40pt;
+}
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(190, 190, 190);
+    background-color: rgb(42, 80, 252);
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+}
+
+#counter {
+    font-size: 100pt;
+    display: flex;
+    color: white;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 80pt;
+}
